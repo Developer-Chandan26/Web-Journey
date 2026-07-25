@@ -1,5 +1,82 @@
-div {
-    height: 100px;
-    width: 100px;
-    background-color: blueviolet;
+.card {
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 3px 8px gold;
+  transition: 1s;
+  padding-left: 10px;
+}
+
+.desc {
+  background-color: bisque;
+  text-align: center;
+  padding: 0 2px 0px 2px;
+}
+
+.desc:hover {
+  color: aqua;
+  background-color: rgb(206, 126, 22);
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.card:hover {
+  box-shadow: 0 4px 16px rgb(209, 22, 247);
+}
+
+#face {
+  height: 200px;
+  width: 200px;
+  background-color: rgb(222, 156, 69);
+  border-radius: 50%;
+  box-shadow: 0 3px 8px gold;
+}
+#face:hover {
+  box-shadow: 0 4px 16px rgb(109, 8, 225);
+
+}
+
+.inner {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(14, 28, 216);
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid rgb(12, 12, 12);
+
+}
+
+.inner:hover {
+  box-shadow: 0 2px 8px rgb(20, 6, 223);
+
+}
+
+#eye1 {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  
+}
+#eye2 {
+  position: relative;
+  top: 50px;
+  left: 100px;
+}
+
+#mouth {
+  height: 25px;
+  width: 75px;
+  background-color: rgb(209, 24, 24);
+  border-radius: 0 0 30px 30px;
+  position: relative;
+  top: 100px;
+  left: 60px;
+  box-shadow: 3px 3px 3px rgb(229, 62, 7);
 }

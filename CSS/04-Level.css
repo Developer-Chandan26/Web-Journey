@@ -7,7 +7,7 @@
   margin: 0 auto;
   /*Transition 
     transition: 0s;*/
-  transition: margin-top 2s ease-out 2s;
+  transition: 1s ease-out 1s;
   box-shadow: 2px 2px 40px green;
 }
 
@@ -15,6 +15,7 @@
   background-color: rgb(219, 123, 13);
   margin-top: 200px;
   /* Transition */
+  transition: 2s;
   border-radius: 50%;
 }
 
@@ -31,27 +32,43 @@
 .box {
   height: 100px;
   width: 250px;
+  margin-left: 30px;
   border: 3px solid black;
-  margin: 0 auto;
   text-align: center;
 }
 #div1 {
   background-color: #0f3040;
   transform: rotate(25deg);
+  /* Position */
+  position: static;
+  top: 100px;
+  left: 100px; 
 }
 #div2 {
   background-color: #464858;
   transform: scale(0.5);
+  /* Position */
+  position: relative;
+  top: 50px;
+  left: 50px; 
 }
 
 #div3 {
   background-color: #a56f63;
   transform: translate(100px, 50px);
+  /* Position */
+  position: absolute;
+  top: 20px;
+  left: 20px;
 }
 
 #div4 {
   background-color: #d99b7f;
   transform: skew(30deg);
+  /* Position */
+  position: fixed;
+  top: 100px;
+  left: 100px;
 }
 /*#div5 {
   background-color: #845449;
@@ -61,9 +78,9 @@
 #wallpaper {
   height: 300px;
   width: 500px;
-  background-color: #a56f63;
+  background-color: antiquewhite;
   border: 2px solid black;
-  background-image: url("leaf.jpg");
+  background-image: url("images/leaf.jpg");
   background-size: cover;
   color: aqua;
   text-align: center;
