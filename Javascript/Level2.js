@@ -29,3 +29,13 @@ let str ="Chandan";
 console.log(str.slice(4)); //str.lengh
 
 //Replace Method
+
+let cha = "I Love Coding";
+
+console.log(cha.replace('I', 'We'));
+console.log(cha.replace('L', 'D'));
+
+//REPEATE METHOD
+let fruit = "mango";
+
+console.log(fruit.repeat(3));
