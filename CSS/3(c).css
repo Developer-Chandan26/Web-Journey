@@ -1,0 +1,20 @@
+/*em and rem */
+#outer {
+  height: 300px;
+  width: 300px;
+  background-color: rgb(17, 244, 244);
+  margin: 50px;
+}
+#inner {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(240, 181, 4);
+  margin-left: 10%;
+}
+
+section {
+  font-size: 2em;
+}
+div {
+  font-size: 3rem;
+}

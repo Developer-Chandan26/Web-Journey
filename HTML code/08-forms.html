@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <label action="/action">
+            Username
+        <input type="username" placeholder="Enter username" />
+        </label>
+
+        <label>
+            Password
+        <input type="Password" placeholder="enter Password" />
+        </label>
+        <label></label>
+
+        Summit
+        <input type="button"  />
+        <br>
+        Color
+        <input type="color"  />
+        <br>
+        Range
+        <input type="range"  />
+        <br>
+        Checkbox
+        <input type="checkbox"  />
+        <br>
+
+    </form>
+    <hr>
+
+    <!--Placeholder & Labels-->
+    <!--Name Attribute-->
+    <!--Checkbox-->
+    <!--Radio-->
+
+    <form action="/server">
+
+       <div>
+        <label for="username">Username:</label>
+        <input type="text" placeholder="enter username" id="username" name="user"/>
+       </div>
+
+       <div>
+        <label for="password">Password:</label>
+        <input type="password" placeholder="enter password" id="password" name="pass"/>
+        <label for="age">I am 18+</label>
+        <input type="checkbox" id="age" name="age" checked />
+        <input type="radio" name="fruit" id="apple" value="apple"/>
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="mango" mango />
+        <label for="apple">Mango</label>
+        <input type="radio" name="fruit" id="orange" value="orange"/>
+        <label for="apple">Orange</label>
+       </div>
+
+       <div>
+        <h4>Choose your Subject:</h4>
+        <input type="checkbox" name="subject" id="math" value="math"/>
+        <label for="math">Math</label>
+        <input type="checkbox" name="subject" id="english" value="eng"/>
+        <label for="english">English</label>
+        <input type="checkbox" name="subject" id="science" value="sci"/>
+        <label for="science">Science</label>
+       </div>
+
+       <!--Button Element-->
+       <button>Summit</button>
+       <input type="button" value="click me" />
+       <input type="submit" />-->
+    </form>
+    <hr>
+
+    <form action="https://www.youtube.com/results?">
+        <label for="youtube">youtube:</label>
+        <input type="text" placeholder="enter search on youtube" id="youtube" name="search_query"  />
+        <button type="submit">Search</button>
+    </form>
+
+      Question.  Create a search option that redirects its search request to google
+     <form action="https:www.google.com/search">
+        <label for="google">Google:</label>
+        <input type="text" placeholder="search on google" id="google" name="q">
+        <button type="submit">Search</button>
+
+        <!--Select input Element: Dropdown-->
+
+        <div>
+            choose your profession
+            <select name="profession" id="profession">
+                <option value="">Choose your profession</option>
+                <option value="stu" selected>Student</option>
+                <option value="dev">Developer</option>
+            </select>
+            <button>submit</button>
+        </div>
+     </form>
+     <hr>
+
+     <!--RANGE INPUT ELEMENT-->
+     <form action="/server">
+        <label for="vol">Choose your volume level</label>
+        <input type="range" id="vol" min="0" max="100" step="10" value="70">
+        <button>submit</button>
+     
+     <br>
+     <!--Text area-->
+     <label for="feedback">Please provide your valuable feedback:</label>
+     <textarea name="feedback" id="feedback" rows="5" cols="10"></textarea>
+     <button>submit</button>
+     </form>
+ 
+</body>
+</html>

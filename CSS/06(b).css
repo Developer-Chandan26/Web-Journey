@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 12, 60px;
+}
+
+.container > div {
+    border: 1px solid white;
+    padding: 10px;
+    background-color: rgb(240, 195, 238);
+    font-size: 1.5rem;
+    border: 1px solid black;
+
+    
+}
+
+.header {
+    grid-column: 1 / 13;
+    grid-row: 1 / 2;
+}
+
+.sidebar {
+    grid-row: 2 / 12;
+    grid-column: 1 / 4;
+
+}
+
+.navigation {
+    grid-column: 4/ 10;
+    grid-row: 2 / 3;
+}
+
+.ads {
+    grid-row: 2/ 12;
+    grid-column: 10 / 13;
+}
+
+.main {
+    grid-row: 3 / span 9;
+    grid-column: 4 / 10;
+}
+
+.footer {
+    grid-column: 1/ 12;
+    grid-row: 12 / 13;
+}
