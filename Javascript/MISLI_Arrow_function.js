@@ -30,4 +30,16 @@ const add = (a, b) => {
 //console.log(add(a + b)); // + → addition karta hai
 console.log(add(3, 5));// , → arguments ko separate karta hai
 
-//Implicit return in Arrow function
+//Implicit return in Arrow function 
+
+  const multiply = (a , b) => a * b;
+
+  console.log(multiply(5 , 3)); 
+
+//Explicit return in Arrow function 
+
+const subtract = (a , b) =>{
+    return a - b;
+};
+
+console.log(subtract(10 , 4));
