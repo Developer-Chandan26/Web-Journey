@@ -13,3 +13,16 @@ let timer = setTimeout(() => {
 }, 5000);
 
 clearTimeout(timer);
+
+
+//Set Interval & Clear intervel
+let count = 1;
+
+let digit = setInterval(() => { //this is set interval
+    console.log(count);
+    count++ ;
+
+    if (count > 5) {
+        clearInterval(digit); // the counter stop after printing 5 because clearInterval() cancels the repeating timer
+    }
+}, 2000);
