@@ -31,5 +31,63 @@ let images = document.querySelectorAll(".images"); //Returns a static NodeList.
 console.log(images); //Returns an empty NodeList if no match is found.
 console.log(images[0]);
 
-//Chanding content
+//Changing content with textContent
+let about = document.querySelector("#about");
 
+about.textContent = "Hello Sandy!";
+
+//Changing content with inner text
+let spider = document.querySelector("b");
+
+spider.innerText = "Iron man";
+
+//Change content with innerHTML
+let boxLink = document.querySelector("ul a");
+
+boxLink.innerHTML = "Author";
+
+//Change content with value
+let user = document.querySelector("#username");
+
+user.value = "Sandy";
+
+console.log(user.value);
+
+//Attribute Manipulation
+//getAttribute()
+let marvel = document.querySelector("#marvel");
+
+console.log(marvel.getAttribute("href"));
+console.log(marvel.getAttribute("id"));
+
+//setAttribute()
+let mainImg = document.querySelector("#mainImg");
+
+console.log(mainImg.setAttribute("alt", "Spider"));
+console.log(mainImg.setAttribute("title", "Profile"));
+
+//Check the updated attribute
+console.log(mainImg.getAttribute("alt"));
+console.log(mainImg.getAttribute("title"));
+
+//hasAttribute()
+let btn = document.querySelector("#btn");
+
+console.log(btn.hasAttribute("disabled")); // true: The disabled attribute exists.
+console.log(btn.hasAttribute("title")); // false: The title attribute does not exist.
+
+//Changing commom attribute
+//image source
+let oldImg = document.querySelector(".oldImg");
+
+console.log(oldImg.setAttribute("src", "assets/Rocket Racoon.jpg"));
+console.log(oldImg.getAttribute("src"));
+
+//changing link
+let amazing = document.querySelector("#Azaming");
+
+console.log(amazing.setAttribute("href", "https://www.youtube.com/"));
+console.log(amazing.getAttribute("href"));
+
+console.log(amazing.setAttribute("alt", "fantasy"));
+console.log(amazing.getAttribute("alt"));
