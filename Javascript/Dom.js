@@ -91,3 +91,32 @@ console.log(amazing.getAttribute("href"));
 
 console.log(amazing.setAttribute("alt", "fantasy"));
 console.log(amazing.getAttribute("alt"));
+
+//Changing CSS Property
+let hero = document.querySelector("h3");
+
+console.log(hero.style.color =" red ");
+console.log(hero.style.backgroundColor =" yellow ");
+console.log(hero.style.fontSize =" 45px ");
+
+//Manupulating Style using classlist
+
+//classList.add()
+let discription2 = document.querySelector("#discription2");
+
+console.log(discription2.classList.add("highlight"));
+
+//classList.toggle()
+console.log(discription2.classList.toggle("hoghlight"));  // true
+//console.log(discription2.classList.toggle("hoghlight")); -> callling second time the toggle is reversed -> false or true
+
+//classList.contain()
+console.log(discription2.classList.contains("highlight"));
+
+//classList.replace()
+console.log(discription2.classList.replace("highlight", "success"));
+
+//classList.remove()
+console.log(discription2.classList.remove("highlight"));
+
+console.log(discription2.classList.contains("highlight"));

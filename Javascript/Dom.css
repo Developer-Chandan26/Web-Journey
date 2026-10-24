@@ -26,3 +26,8 @@ body {
 #description {
   background-color: antiquewhite;
 }
+
+.highlight {
+  color: bisque;
+  background-color: rgb(120, 15, 15);
+}
