@@ -1,0 +1,19 @@
+#Container {
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+    text-align: center;
+
+}
+
+#div2 {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(242, 0, 255);
+    text-align: center;
+
+}
+
+#btn {
+    background-color: blanchedalmond;
+}
